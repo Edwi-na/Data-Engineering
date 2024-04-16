@@ -20,7 +20,7 @@ def get_files(filepath):
     
     return all_files
 
-#-----processing song data
+#-processing song data
 # Use the `get_files` function to get a list of all song JSON files in `data/song_data`
 song_files = get_files('data/song_data')
 
@@ -88,7 +88,7 @@ for artist in artist_data:
 
 
 
-#-----processing log data
+#-processing log data
 #Use the `get_files` function provided above to get a list of all log JSON files in `data/log_data`
 log_files = get_files('data/log_data')
 
